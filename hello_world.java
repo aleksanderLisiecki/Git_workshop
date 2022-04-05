@@ -17,8 +17,9 @@ class Robot{
         void makeAction(){
                 System.out.println("I just turned!!!");
                 System.out.println("and moved");
-                
                 System.out.println("and rolled");
+                
+                System.out.println("and thats it");
         }
 
         void makeNoice(){
