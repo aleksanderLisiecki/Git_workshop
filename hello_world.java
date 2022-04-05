@@ -24,5 +24,9 @@ class Robot{
 
         void makeNoice(){
                 System.out.println("Bark!");
+		System.out.println("Chyba ty");
+		System.out.println("jednak nie ja");
+		System.out.println("to kto");
+
         }
 }
