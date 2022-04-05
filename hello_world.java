@@ -13,9 +13,9 @@ class HelloWorld {
 }
 
 class Robot{
-        
+
         void makeAction(){
-                System.out.println("I just moved!!!");
+                System.out.println("I just turned!!!");
         }
 
         void makeNoice(){
