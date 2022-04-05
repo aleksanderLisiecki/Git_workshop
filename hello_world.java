@@ -3,8 +3,22 @@
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!"); 
-        System.out.println("Hello, Aleksander to .!"); 
-        System.out.println("Hello, Kuba to .!"); ujj
-        System.out.println("Hello, World!"); 
+
+
+        Robot robot = new Robot();
+
+        robot.makeAction();
+        robot.makeNoice();
     }
+}
+
+class Robot{
+        
+        void makeAction(){
+                System.out.println("I just moved!!!");
+        }
+
+        void makeNoice(){
+                System.out.println("Bark!");
+        }
 }
